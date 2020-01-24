@@ -15,7 +15,7 @@ class Song
 # binding.pry
   end
   
-    def self.new_by_filename(new_song)
+    def self.new_by_filename(file_name)
       
       
     end
