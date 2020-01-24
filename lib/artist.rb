@@ -34,6 +34,7 @@ class Artist
        new_artist = self.new(name)
        new_artist.save
       # research tap method
+      binding.pry
         new_artist
   end
 
