@@ -16,14 +16,13 @@ class Song
   end
   
     def self.new_by_filename(file_name)
-       binding.pry
+      # binding.pry
          array = file_name.split(" - ")
          name_of_song = array[1]
          new_song = self.new(name_of_song)
          name_of_artist = array[0]
-         
-          Artist.find_or_create_by_name(name_of_artist)
-         
+        new_artist = Artist.find_or_create_by_name(name_of_artist)
+         binding.pry
     end
   
   # def artist_name=(name)
