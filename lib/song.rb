@@ -28,9 +28,9 @@ class Song
         # binding.pry
     end
   
-  # def artist_name=(name)
+   def artist_name=(name)
 
-  # end
+   end
   
  
   
