@@ -23,6 +23,7 @@ class Song
          name_of_artist = array[0]
          
          
+         
     end
   
   # def artist_name=(name)
