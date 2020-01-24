@@ -56,6 +56,7 @@ class Artist
     return @@all.find {|artist| artist.name == name }
       
       else
+        binding.pry
         Artist.create(name)
     
    end
