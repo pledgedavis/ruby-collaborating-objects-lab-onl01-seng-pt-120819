@@ -32,7 +32,7 @@ class Artist
   
   def self.create(name)
        new_artist = self.new(name)
-       new_artist.save
+      # new_artist.save
       # research tap method
       binding.pry
         new_artist
