@@ -23,9 +23,9 @@ class Song
          name_of_artist = array[0]
         new_artist = Artist.find_or_create_by_name(name_of_artist)
          new_song.artist = new_artist
-         
+           new_song 
         
-         binding.pry
+        # binding.pry
     end
   
   # def artist_name=(name)
