@@ -34,6 +34,7 @@ class Artist
   def self.create(name)
        self.new(name).tap {|artist| artist.save }
       # research tap method
+      binding.pry
   end
 
   def save
@@ -56,7 +57,7 @@ class Artist
     return @@all.find {|artist| artist.name == name }
       
       else
-        binding.pry
+        # binding.pry
         Artist.create(name)
     
    end
