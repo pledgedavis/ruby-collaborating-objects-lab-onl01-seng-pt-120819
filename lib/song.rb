@@ -16,7 +16,7 @@ class Song
   end
   
     def self.new_by_filename(file_name)
-      # binding.pry
+       binding.pry
          array = file_name.split(" - ")
          name_of_song = array[1]
          self.new(name_of_song)
