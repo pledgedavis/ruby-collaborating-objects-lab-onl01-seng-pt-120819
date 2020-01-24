@@ -19,7 +19,7 @@ class Song
       binding.pry
          array = file_name.split(" - ")
          name_of_song = array[1]
-         
+         self.new(name_of_song)
     end
   
   # def artist_name=(name)
